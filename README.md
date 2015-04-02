@@ -1,2 +1,2 @@
 # PoolSchool
-Teach people how to play pool
+Teaches people how to play pool
