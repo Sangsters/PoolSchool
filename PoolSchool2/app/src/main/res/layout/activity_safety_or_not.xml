@@ -1,0 +1,37 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.poolschool.SafetyDrill.SafetyOrNot"
+    android:background="#ff000000">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="80dp"
+            android:layout_weight=".5"
+            android:id="@+id/safeornot"
+            android:src ="@drawable/safeornot"
+            android:layout_gravity="center_horizontal"
+            android:background="#ff000000" />
+
+        <TextView
+            android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Get in the habit of weighing your options. To wit: Should I shoot, or play safe? The diagrams contain the same shot, but suggest different ways of handling it. The shot itself is pretty common — not exactly a 50-yardline scratch risk, but no gimme either. Assume the 2 is on the opposite short rail. Ask yourself, is there a reward for sinking the 1 (Diagram 1)? (You’re liable to hook yourself behind the 3, 5, and 7, and position on the 2 would be tough in any case.) Or, would it be smarter to play safe (Diagram 2) and perhaps get ball in hand? We like the latter option. No matter what, practice this opposite-ends-of-the-table safety for a while. It’s simple, deadly and usually available."
+            android:id="@+id/progressiveDrill1Text"
+            android:layout_gravity="center_horizontal"
+            android:textColor="#ffffffff"
+            android:background="#ff000000" />
+    </LinearLayout>
+</RelativeLayout>

@@ -8,14 +8,104 @@
         android:label="@string/app_name"
         android:theme="@style/AppTheme" >
         <activity
-            android:theme ="@android:style/Theme.Black.NoTitleBar"
             android:name=".MainActivity"
-            android:label="@string/app_name" >
+            android:label="@string/app_name"
+            android:theme="@android:style/Theme.Black.NoTitleBar" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+        </activity>
+        <activity
+            android:name="com.poolschool.drill.CueBallControl"
+            android:label="Cue Ball Control Drills"
+            android:theme="@android:style/Theme.Black.NoTitleBar" >
+            <intent-filter>
+                <action android:name="CueBallControl" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Drills"
+            android:label="Drills"
+            android:theme="@android:style/Theme.Black.NoTitleBar" >
+        </activity>
+        <activity
+            android:name="com.poolschool.drill.Fundamental"
+            android:label="Fundamental"
+            android:theme="@android:style/Theme.Black.NoTitleBar" >
+        </activity>
+        <activity
+            android:name="com.poolschool.drill.League"
+            android:label="League Score" >
+        </activity>
+        <activity
+            android:name="com.poolschool.CueBallControlDrills.ProgressiveDrill1"
+            android:label="@string/title_activity_progressive_drill1" >
+        </activity>
+        <activity
+            android:name="com.poolschool.CueBallControlDrills.ProgressivePositionDrill2"
+            android:label="@string/title_activity_progressive_position_drill2" >
+        </activity>
+        <activity
+            android:name="com.poolschool.CueBallControlDrills.ProgressivePositionDrill3"
+            android:label="@string/title_activity_progressive_position_drill3" >
+        </activity>
+        <activity
+            android:name="com.poolschool.SafetyDrill.HalfTableSafety"
+            android:label="@string/title_activity_half_table_safety" >
+        </activity>
+        <activity
+            android:name="com.poolschool.SafetyDrill.DuckAndCover"
+            android:label="@string/title_activity_duck_and_cover" >
+        </activity>
+        <activity
+            android:name="com.poolschool.SafetyDrill.SafetyOrNot"
+            android:label="@string/title_activity_safety_or_not" >
+        </activity>
+        <activity
+            android:name="com.poolschool.drill.KickDrills"
+            android:label="@string/title_activity_kick_drills" >
+            android:theme="@android:style/Theme.Black.NoTitleBar">
+        </activity>
+        <activity
+            android:name="com.poolschool.KickDrill.KickIt"
+            android:label="@string/title_activity_kick_it" >
+        </activity>
+        <activity
+            android:name="com.poolschool.KickDrill.ProgressiveKicking2"
+            android:label="@string/title_activity_progressive_kicking2" >
+        </activity>
+        <activity
+            android:name="com.poolschool.KickDrill.ProgressiveKicking1"
+            android:label="@string/title_activity_progressive_kicking1" >
+        </activity>
+        <activity
+            android:name="com.poolschool.drill.SafetyDrills"
+            android:label="@string/SafetyDrills" >
+            android:theme="@android:style/Theme.Black.NoTitleBar">
+        </activity>
+        <activity
+            android:name="com.poolschool.fundamental.FundamentalList"
+            android:label="@string/title_activity_fundamental_list" >
+        </activity>
+        <activity
+            android:name="com.poolschool.drill.ShotMakingDrillList"
+            android:label="@string/title_activity_shot_making_drill_list" >
+        </activity>
+        <activity
+            android:name="com.poolschool.shotMakingDrills.RailShot"
+            android:label="@string/title_activity_rail_shot" >
+        </activity>
+        <activity
+            android:name="com.poolschool.shotMakingDrills.Pocket9Drill"
+            android:label="@string/title_activity_pocket9_drill" >
+        </activity>
+        <activity
+            android:name="com.poolschool.shotMakingDrills.AimToWin"
+            android:label="@string/title_activity_aim_to_win" >
         </activity>
     </application>
 

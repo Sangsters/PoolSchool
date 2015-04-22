@@ -3,4 +3,21 @@
 
     <string name="hello_world">Hello world!</string>
     <string name="action_settings">Settings</string>
+    <string name="title_activity_drill2">Drill2</string>
+    <string name="title_activity_progressive_drill1">Progressive Drill 1</string>
+    <string name="title_activity_progressive_position_drill2">ProgressivePositionDrill2</string>
+    <string name="title_activity_progressive_position_drill3">ProgressivePositionDrill3</string>
+    <string name="title_activity_half_table_safety">HalfTableSafety</string>
+    <string name="title_activity_duck_and_cover">DuckAndCover</string>
+    <string name="title_activity_safety_or_not">SafetyOrNot</string>
+    <string name="title_activity_kick_drills">KickDrills</string>
+    <string name="title_activity_kick_it">KickIt</string>
+    <string name="title_activity_progressive_kicking2">ProgressiveKicking2</string>
+    <string name="title_activity_progressive_kicking1">ProgressiveKicking1</string>
+    <string name="SafetyDrills">SafetyDrills</string>
+    <string name="title_activity_fundamental_list">FundamentalList</string>
+    <string name="title_activity_shot_making_drill_list">ShotMakingDrillList</string>
+    <string name="title_activity_rail_shot">RailShot</string>
+    <string name="title_activity_pocket9_drill">Pocket9Drill</string>
+    <string name="title_activity_aim_to_win">AimToWin</string>
 </resources>

@@ -1,5 +1,6 @@
 package com.poolschool.drill;
 
+
 import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
@@ -12,41 +13,43 @@ import android.widget.TextView;
 import com.poolschool.CueBallControlDrills.ProgressiveDrill1;
 import com.poolschool.CueBallControlDrills.ProgressivePositionDrill2;
 import com.poolschool.CueBallControlDrills.ProgressivePositionDrill3;
+import com.poolschool.SafetyDrill.DuckAndCover;
+import com.poolschool.SafetyDrill.HalfTableSafety;
+import com.poolschool.SafetyDrill.SafetyOrNot;
 import com.poolschool.poolschool.R;
 
 /**
- * Created by OWNER-PC on 4/11/2015.
+ * Created by OWNER-PC on 4/13/2015.
  */
-public class CueBallControl extends Activity {
+public class SafetyDrills extends Activity{
 
-    @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.cueballcontrol);
+        setContentView(R.layout.safetydrill);
 
         populateListView();
         registerClickCallback();
-    }
 
+    }
     private void registerClickCallback() {
-        ListView list = (ListView) findViewById(R.id.cueBallControlListView);
+        ListView list = (ListView) findViewById(R.id.safetyListView);
         list.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
                 TextView textView = (TextView) view;
                 if(position==0){
                     Intent intent;
-                    intent = new Intent(getApplicationContext(),ProgressiveDrill1.class);
+                    intent = new Intent(getApplicationContext(),HalfTableSafety.class);
                     startActivity(intent);
                 }
                 else if(position==1){
                     Intent intent;
-                    intent = new Intent(getApplicationContext(),ProgressivePositionDrill2.class);
+                    intent = new Intent(getApplicationContext(),DuckAndCover.class);
                     startActivity(intent);
                 }
                 else if(position==2){
                     Intent intent;
-                    intent = new Intent(getApplicationContext(),ProgressivePositionDrill3.class);
+                    intent = new Intent(getApplicationContext(),SafetyOrNot.class);
                     startActivity(intent);
                 }
 
@@ -56,18 +59,14 @@ public class CueBallControl extends Activity {
 
     private void populateListView() {
         //create list of Item
-        String[] cueBallControlDrills = {"Progressive Drill 1", "Progressive Drill 2", "Progressive Drill 3"};
+        String[] cueBallControlDrills = {"HalfTableSafety", "Duck And Cover", "Safety Or Not"};
 
         //build adapter  context, layout to use, item to display
         ArrayAdapter<String> adapter = new ArrayAdapter<String>(this, R.layout.cueballcontrollist,cueBallControlDrills);
 
         //configure
-        ListView list = (ListView) findViewById(R.id.cueBallControlListView);
+        ListView list = (ListView) findViewById(R.id.safetyListView);
         list.setAdapter(adapter);
     }
-
-
-
-
 
 }

@@ -2,11 +2,16 @@ package com.poolschool.poolschool;
 
 
 import android.app.Activity;
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
-public class MainActivity extends Activity implements View.OnClickListener {
+import com.poolschool.drill.Fundamental;
+import com.poolschool.drill.League;
+import com.poolschool.fundamental.FundamentalList;
+
+public class MainActivity extends Activity implements View.OnClickListener{
     private Button drill, fundamental,league;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -26,12 +31,13 @@ public class MainActivity extends Activity implements View.OnClickListener {
 
     @Override
     public void onClick(View v){
+
         if(v==drill)
-            setContentView(R.layout.drills);
+            startActivity(new Intent(this, Drills.class));
         else if(v==fundamental)
-            setContentView(R.layout.fundamental);
+            startActivity(new Intent(this, FundamentalList.class));
         else if(v==league)
-            setContentView(R.layout.league);
+            startActivity(new Intent(this, League.class));
 
     }
 
