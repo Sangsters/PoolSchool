@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:background="#fffffffff">
+
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:layout_marginRight="30dp"
+            android:background="#ffffffff"
+            android:hint="Enter name"
+            android:textStyle = "bold"
+            android:textSize="20dp"
+
+            android:id="@+id/player1Name" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#ffffffff"
+            android:hint="0"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"
+            android:textSize="20dp"
+
+            android:id="@+id/player1Score1" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"
+            android:background="#ffffffff"
+            android:hint="0"
+            android:textStyle = "bold"
+            android:textSize="20dp"
+
+            android:id="@+id/player1Score2" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"
+            android:background="#ffffffff"
+            android:hint="0"
+            android:textStyle = "bold"
+            android:textSize="20dp"
+
+            android:id="@+id/player1Score3" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"
+            android:background="#ffffffff"
+            android:hint="0"
+            android:textStyle = "bold"
+            android:textSize="20dp"
+
+            android:id="@+id/player1Score4" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"
+            android:background="#ffffffff"
+            android:hint="0"
+            android:textStyle = "bold"
+            android:textSize="20dp"
+
+            android:id="@+id/player1Score5" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"
+            android:background="#ffffffff"
+            android:hint="Tot"
+            android:textStyle = "bold"
+            android:textSize="20dp"
+
+            android:id="@+id/player1Total" />
+    </LinearLayout>
+</LinearLayout>

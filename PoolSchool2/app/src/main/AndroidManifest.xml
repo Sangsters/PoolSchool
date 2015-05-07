@@ -107,6 +107,18 @@
             android:name="com.poolschool.shotMakingDrills.AimToWin"
             android:label="@string/title_activity_aim_to_win" >
         </activity>
+        <activity
+            android:name="com.poolschool.league.Ball9League"
+            android:label="@string/title_activity_ball9_league" >
+        </activity>
+        <activity
+            android:name="com.poolschool.league.BCA8League"
+            android:label="@string/title_activity_bca8_league" >
+        </activity>
+        <activity
+            android:name="com.poolschool.league.League"
+            android:label="@string/title_activity_league" >
+        </activity>
     </application>
 
 </manifest>
