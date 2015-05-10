@@ -4,7 +4,7 @@
 
     <application
         android:allowBackup="true"
-        android:icon="@mipmap/ic_launcher"
+        android:icon="@drawable/icons"
         android:label="@string/app_name"
         android:theme="@style/AppTheme" >
         <activity
@@ -36,10 +36,6 @@
             android:name="com.poolschool.drill.Fundamental"
             android:label="Fundamental"
             android:theme="@android:style/Theme.Black.NoTitleBar" >
-        </activity>
-        <activity
-            android:name="com.poolschool.drill.League"
-            android:label="League Score" >
         </activity>
         <activity
             android:name="com.poolschool.CueBallControlDrills.ProgressiveDrill1"

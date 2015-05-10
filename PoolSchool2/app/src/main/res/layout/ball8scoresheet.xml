@@ -183,7 +183,7 @@
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
             android:layout_marginBottom="10dp"
-            android:background="#fffffffff">
+            android:background="#ffffffff">
 
             <TextView
                 android:layout_width="wrap_content"
@@ -193,7 +193,7 @@
                 android:layout_marginRight="5dp"
                 android:textStyle = "bold"
                 android:textSize="20dp"
-                android:textColorHint="#"
+
                 android:hint="ave"
                 android:id="@+id/avg1" />
 
@@ -203,7 +203,7 @@
                 android:layout_marginLeft="30dp"
                 android:layout_marginRight="30dp"
                 android:background="#ffffffff"
-               android:hint="Enter name"
+                android:hint="Enter name"
                 android:textStyle = "bold"
                 android:textSize="20dp"
 
@@ -261,7 +261,7 @@
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
             android:layout_marginBottom="10dp"
-            android:background="#fffffffff">
+            android:background="#ffffffff">
 
             <TextView
                 android:layout_width="wrap_content"
@@ -271,7 +271,7 @@
                 android:layout_marginRight="5dp"
                 android:textStyle = "bold"
                 android:textSize="20dp"
-                android:textColorHint="#"
+
                 android:hint="ave"
                 android:id="@+id/avg2" />
 
@@ -339,7 +339,7 @@
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
             android:layout_marginBottom="10dp"
-            android:background="#fffffffff">
+            android:background="#ffffffff">
 
             <TextView
                 android:layout_width="wrap_content"
@@ -349,7 +349,7 @@
                 android:layout_marginRight="5dp"
                 android:textStyle = "bold"
                 android:textSize="20dp"
-                android:textColorHint="#"
+
                 android:hint="ave"
                 android:id="@+id/avg3" />
 
@@ -417,7 +417,7 @@
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
             android:layout_marginBottom="10dp"
-            android:background="#fffffffff">
+            android:background="#ffffffff">
 
             <TextView
                 android:layout_width="wrap_content"
@@ -427,7 +427,7 @@
                 android:layout_marginRight="5dp"
                 android:textStyle = "bold"
                 android:textSize="20dp"
-                android:textColorHint="#"
+
                 android:hint="ave"
                 android:id="@+id/avg4" />
 
@@ -495,7 +495,7 @@
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
 
-            android:background="#fffffffff">
+            android:background="#ffffffff">
 
             <TextView
                 android:layout_width="wrap_content"
@@ -505,7 +505,7 @@
                 android:layout_marginRight="5dp"
                 android:textStyle = "bold"
                 android:textSize="20dp"
-                android:textColorHint="#"
+
                 android:hint="ave"
                 android:id="@+id/avg5" />
 
@@ -604,7 +604,7 @@
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
             android:layout_marginBottom="10dp"
-            android:background="#fffffffff">
+            android:background="#ffffffff">
 
             <TextView
                 android:layout_width="wrap_content"
@@ -614,7 +614,7 @@
                 android:layout_marginRight="5dp"
                 android:textStyle = "bold"
                 android:textSize="20dp"
-                android:textColorHint="#"
+
                 android:hint="ave"
                 android:id="@+id/avg6" />
 
@@ -682,7 +682,7 @@
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
             android:layout_marginBottom="10dp"
-            android:background="#fffffffff">
+            android:background="#ffffffff">
 
             <TextView
                 android:layout_width="wrap_content"
@@ -692,7 +692,7 @@
                 android:layout_marginRight="5dp"
                 android:textStyle = "bold"
                 android:textSize="20dp"
-                android:textColorHint="#"
+
                 android:hint="ave"
                 android:id="@+id/avg7" />
 
@@ -760,7 +760,7 @@
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
             android:layout_marginBottom="10dp"
-            android:background="#fffffffff">
+            android:background="#ffffffff">
 
             <TextView
                 android:layout_width="wrap_content"
@@ -770,7 +770,7 @@
                 android:layout_marginRight="5dp"
                 android:textStyle = "bold"
                 android:textSize="20dp"
-                android:textColorHint="#"
+
                 android:hint="ave"
                 android:id="@+id/avg8" />
 
@@ -838,7 +838,7 @@
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
             android:layout_marginBottom="10dp"
-            android:background="#fffffffff">
+            android:background="#ffffffff">
 
             <TextView
                 android:layout_width="wrap_content"
@@ -848,7 +848,7 @@
                 android:layout_marginRight="5dp"
                 android:textStyle = "bold"
                 android:textSize="20dp"
-                android:textColorHint="#"
+
                 android:hint="ave"
                 android:id="@+id/avg9" />
 
@@ -915,7 +915,7 @@
             android:orientation="horizontal"
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
-            android:background="#fffffffff">
+            android:background="#ffffffff">
 
             <TextView
                 android:layout_width="wrap_content"
@@ -925,7 +925,7 @@
                 android:layout_marginRight="5dp"
                 android:textStyle = "bold"
                 android:textSize="20dp"
-                android:textColorHint="#"
+
                 android:hint="ave"
                 android:id="@+id/avg10" />
 

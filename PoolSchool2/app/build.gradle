@@ -1,9 +1,16 @@
 apply plugin: 'com.android.application'
 
 android {
+    signingConfigs {
+        config {
+            keyAlias 'MyAndroidKey'
+            keyPassword 'Super7mans'
+            storeFile file('C:/Users/OWNER-PC/Desktop/Sprint 2015/Cs499 App/android.jks')
+            storePassword 'Super7mans'
+        }
+    }
     compileSdkVersion 21
     buildToolsVersion "21.1.2"
-
     defaultConfig {
         applicationId "com.poolschool.poolschool"
         minSdkVersion 15
@@ -15,6 +22,7 @@ android {
         release {
             minifyEnabled false
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+            signingConfig signingConfigs.config
         }
     }
     compileOptions {
