@@ -11,7 +11,7 @@
         android:orientation="vertical"
         android:layout_width="fill_parent"
         android:layout_height="fill_parent"
-        android:background="#ff000000"
+
         android:layout_alignParentBottom="true"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true">
@@ -31,8 +31,8 @@
 With an object ball on the foot spot, place the cue ball at Spot 1. After every successful shot, move the cue ball to the next number. After every miss, move the cue ball down a number. [Bob Jewett"
             android:id="@+id/progressiveDrill1Text"
             android:layout_gravity="center_horizontal"
-            android:background="#ff000000"
-            android:textColor="#ffffffff" />
+
+            />
 
         <LinearLayout
             android:orientation="horizontal"
@@ -45,7 +45,7 @@ With an object ball on the foot spot, place the cue ball at Spot 1. After every 
                 android:layout_height="wrap_content"
 
                 android:text="1"
-                android:textColor="#f00"
+
                 android:id="@+id/radio1" />
 
             <RadioButton
@@ -53,14 +53,14 @@ With an object ball on the foot spot, place the cue ball at Spot 1. After every 
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="8dp"
                 android:text="2"
-                android:textColor="#f00"
+
                 android:id="@+id/radio2" />
 
             <RadioButton
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="3"
-                android:textColor="#f00"
+
                 android:layout_marginLeft="8dp"
                 android:id="@+id/radio3" />
 
@@ -68,7 +68,7 @@ With an object ball on the foot spot, place the cue ball at Spot 1. After every 
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="4"
-                android:textColor="#f00"
+
                 android:layout_marginLeft="8dp"
                 android:id="@+id/radio4" />
 
@@ -77,7 +77,7 @@ With an object ball on the foot spot, place the cue ball at Spot 1. After every 
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="8dp"
                 android:text="5"
-                android:textColor="#f00"
+
                 android:id="@+id/radio5" />
 
             <RadioButton
@@ -85,7 +85,7 @@ With an object ball on the foot spot, place the cue ball at Spot 1. After every 
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="8dp"
                 android:text="6"
-                android:textColor="#f00"
+
                 android:id="@+id/radio6" />
 
             <RadioButton
@@ -93,7 +93,7 @@ With an object ball on the foot spot, place the cue ball at Spot 1. After every 
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="8dp"
                 android:text="7"
-                android:textColor="#f00"
+
                 android:id="@+id/radio7" />
         </LinearLayout>
 

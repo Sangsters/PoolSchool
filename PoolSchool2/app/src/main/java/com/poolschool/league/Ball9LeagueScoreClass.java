@@ -12,7 +12,7 @@ public class Ball9LeagueScoreClass {
     private int score5;
 
     public Ball9LeagueScoreClass(){
-        name="";
+        name=null;
         score1=0;
         score2=0;
         score3=0;

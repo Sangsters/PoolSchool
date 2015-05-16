@@ -1,5 +1,6 @@
 package com.poolschool.fundamental;
 
+import android.app.Activity;
 import android.content.Intent;
 import android.media.Image;
 import android.support.v7.app.ActionBarActivity;
@@ -21,7 +22,7 @@ import com.poolschool.poolschool.R;
 
 import java.util.ArrayList;
 
-public class FundamentalList extends ActionBarActivity {
+public class FundamentalList extends Activity {
     ArrayList<FundamentI> imageList =  new ArrayList<FundamentI>();
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -31,7 +32,7 @@ public class FundamentalList extends ActionBarActivity {
       populateFundamentalI();
       populateListView();
 
-      //fundAdapter.getView();
+
 
 
     }
@@ -51,7 +52,7 @@ public class FundamentalList extends ActionBarActivity {
     }
 private class MyListAdapter extends ArrayAdapter{
     public MyListAdapter(){
-        super(FundamentalList.this, R.layout.fundlistviewstruct,imageList );
+        super(FundamentalList.this, R.layout.fundlistviewstruct,imageList);
     }
 
     @Override

@@ -35,5 +35,43 @@ Taking ball in hand on every shot, the goal is to leave the object ball near A a
             android:layout_gravity="center_horizontal"
             android:textColor="#ffffffff"
             android:background="#ff000000" />
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_weight=".5">
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:text="Successful or not"
+                android:textColor="#f00"
+                android:id="@+id/halfTableSafetyRadio" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_weight=".5"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight=".5"
+                android:text="Save"
+                android:id="@+id/saveAimToWin" />
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight=".5"
+                android:text="Graph"
+                android:id="@+id/graphAimToWin" />
+
+
+        </LinearLayout>
     </LinearLayout>
 </RelativeLayout>

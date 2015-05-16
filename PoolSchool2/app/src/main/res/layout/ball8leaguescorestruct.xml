@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent" android:layout_height="match_parent">
-
     <LinearLayout
         android:orientation="horizontal"
         android:layout_width="fill_parent"
@@ -9,7 +8,17 @@
         android:layout_marginBottom="10dp"
         android:background="#ffffffff">
 
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
 
+            android:layout_marginRight="30dp"
+            android:background="#ffffffff"
+            android:hint="ave"
+            android:textStyle = "bold"
+            android:textSize="20dp"
+
+            android:id="@+id/ball8PlayerAve" />
 
         <TextView
             android:layout_width="wrap_content"
@@ -21,7 +30,7 @@
             android:textStyle = "bold"
             android:textSize="20dp"
 
-            android:id="@+id/playerName" />
+            android:id="@+id/ball8Player1Name" />
 
         <TextView
             android:layout_width="wrap_content"
@@ -32,19 +41,7 @@
             android:layout_marginLeft="10dp"
             android:textSize="20dp"
 
-            android:id="@+id/playerScore1" />
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginRight="10dp"
-            android:layout_marginLeft="10dp"
-            android:background="#ffffffff"
-            android:hint="0"
-            android:textStyle = "bold"
-            android:textSize="20dp"
-
-            android:id="@+id/playerScore2" />
+            android:id="@+id/ball8Player1Score1" />
 
         <TextView
             android:layout_width="wrap_content"
@@ -56,7 +53,8 @@
             android:textStyle = "bold"
             android:textSize="20dp"
 
-            android:id="@+id/playerScore3" />
+            android:id="@+id/ball8Player1Score2" />
+
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -67,7 +65,7 @@
             android:textStyle = "bold"
             android:textSize="20dp"
 
-            android:id="@+id/playerScore4" />
+            android:id="@+id/ball8Player1Score3" />
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -78,7 +76,18 @@
             android:textStyle = "bold"
             android:textSize="20dp"
 
-            android:id="@+id/playerScore5" />
+            android:id="@+id/ball8Player1Score4" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"
+            android:background="#ffffffff"
+            android:hint="0"
+            android:textStyle = "bold"
+            android:textSize="20dp"
+
+            android:id="@+id/player1Score5" />
 
         <TextView
             android:layout_width="wrap_content"
@@ -90,6 +99,7 @@
             android:textStyle = "bold"
             android:textSize="20dp"
 
-            android:id="@+id/playerTotal" />
+            android:id="@+id/ball8Player1Total" />
     </LinearLayout>
+
 </LinearLayout>

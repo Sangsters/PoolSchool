@@ -6,11 +6,11 @@
         android:allowBackup="true"
         android:icon="@drawable/icons"
         android:label="@string/app_name"
-        android:theme="@style/AppTheme" >
+        android:theme="@android:style/Theme.Black.NoTitleBar" >
         <activity
             android:name=".MainActivity"
             android:label="@string/app_name"
-            android:theme="@android:style/Theme.Black.NoTitleBar" >
+             >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -20,7 +20,7 @@
         <activity
             android:name="com.poolschool.drill.CueBallControl"
             android:label="Cue Ball Control Drills"
-            android:theme="@android:style/Theme.Black.NoTitleBar" >
+             >
             <intent-filter>
                 <action android:name="CueBallControl" />
 
@@ -30,12 +30,12 @@
         <activity
             android:name=".Drills"
             android:label="Drills"
-            android:theme="@android:style/Theme.Black.NoTitleBar" >
+             >
         </activity>
         <activity
             android:name="com.poolschool.drill.Fundamental"
             android:label="Fundamental"
-            android:theme="@android:style/Theme.Black.NoTitleBar" >
+             >
         </activity>
         <activity
             android:name="com.poolschool.CueBallControlDrills.ProgressiveDrill1"
@@ -64,7 +64,7 @@
         <activity
             android:name="com.poolschool.drill.KickDrills"
             android:label="@string/title_activity_kick_drills" >
-            android:theme="@android:style/Theme.Black.NoTitleBar">
+            >
         </activity>
         <activity
             android:name="com.poolschool.KickDrill.KickIt"
@@ -81,7 +81,7 @@
         <activity
             android:name="com.poolschool.drill.SafetyDrills"
             android:label="@string/SafetyDrills" >
-            android:theme="@android:style/Theme.Black.NoTitleBar">
+            >
         </activity>
         <activity
             android:name="com.poolschool.fundamental.FundamentalList"

@@ -36,22 +36,23 @@ public class ShotMakingDrillList extends Activity {
         list.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
-                TextView textView = (TextView) view;
+
                 if(position==0){
-                    Intent intent;
-                    intent = new Intent(getApplicationContext(),RailShot.class);
-                    startActivity(intent);
-                }
-                else if(position==1){
-                    Intent intent;
-                    intent = new Intent(getApplicationContext(),Pocket9Drill.class);
-                    startActivity(intent);
-                }
-                else if(position==2){
                     Intent intent;
                     intent = new Intent(getApplicationContext(),AimToWin.class);
                     startActivity(intent);
                 }
+                else if(position==1){
+                    Intent intent;
+                    intent = new Intent(getApplicationContext(),RailShot.class);
+                    startActivity(intent);
+                }
+                else if(position==2){
+                    Intent intent;
+                    intent = new Intent(getApplicationContext(),Pocket9Drill.class);
+                    startActivity(intent);
+                }
+
 
             }
         });
@@ -59,7 +60,7 @@ public class ShotMakingDrillList extends Activity {
 
     private void populateListView() {
         //create list of Item
-        String[] cueBallControlDrills = {"Aim To Win", "Pocket the 9", "Rail Shot"};
+        String[] cueBallControlDrills = {"Aim To Win", "Rail Shot","Pocket the 9"};
 
         //build adapter  context, layout to use, item to display
         ArrayAdapter<String> adapter = new ArrayAdapter<String>(this, R.layout.cueballcontrollist, cueBallControlDrills);

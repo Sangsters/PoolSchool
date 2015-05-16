@@ -17,7 +17,7 @@
 
         <ImageView
             android:layout_width="wrap_content"
-            android:layout_height="80dp"
+            android:layout_height="wrap_content"
             android:layout_weight=".5"
             android:id="@+id/progressiveDrill1Image"
             android:src ="@drawable/kickit"
@@ -25,7 +25,7 @@
             android:background="#ff000000" />
 
         <TextView
-            android:layout_weight="1"
+
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="This quick kicking drill can serve two purposes: 1) It’s a simple approach to getting a feel for kicking, and 2) it can be used as a way of reading an unfamiliar table.
@@ -35,6 +35,47 @@
             android:layout_gravity="center_horizontal"
             android:textColor="#ffffffff"
             android:background="#ff000000" />
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_weight=".5">
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:text="Successful"
+                android:textColor="#f00"
+                android:id="@+id/kickItRadio" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_weight=".5"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight=".5"
+                android:text="Save"
+                android:id="@+id/saveAimToWin" />
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight=".5"
+                android:text="Graph"
+                android:id="@+id/graphAimToWin" />
+
+
+        </LinearLayout>
+
+
     </LinearLayout>
+
 
 </RelativeLayout>

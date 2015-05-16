@@ -22,17 +22,7 @@ import com.poolschool.drill.ShotMakingDrillList;
         protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.drills);
-
-        //cueBallControl = (Button) findViewById(R.id.cueBallControl);
-       // shotMaking = (Button) findViewById(R.id.shotMaking);
-       // kick = (Button) findViewById(R.id.kick);
-        //safety = (Button) findViewById(R.id.safety);
         addListenerOnButton();
-
-        //cueBallControl.setOnClickListener(this);
-        //shotMaking.setOnClickListener(this);
-        //kick.setOnClickListener(this);
-        //safety.setOnClickListener(this);
 
     }
     public void addListenerOnButton(){

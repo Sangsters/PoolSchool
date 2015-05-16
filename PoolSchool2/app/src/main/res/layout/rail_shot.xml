@@ -4,7 +4,8 @@
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
     android:paddingBottom="@dimen/activity_vertical_margin"
-    tools:context="com.poolschool.shotMakingDrills.RailShot">
+    tools:context="com.poolschool.shotMakingDrills.RailShot"
+    android:background="@android:color/black">
 
     <LinearLayout
         android:orientation="vertical"
@@ -12,7 +13,9 @@
         android:layout_height="fill_parent"
         android:layout_alignParentBottom="true"
         android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true">
+        android:layout_alignParentStart="true"
+
+        android:background="@android:color/black">
 
         <ImageView
             android:layout_width="wrap_content"
@@ -24,10 +27,48 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Try this if you have trouble sinking rail shots and keeping control of the cue ball. Position the balls so they are frozen along the rail. (There are several variations on this drill; the example shown just happens to use all 15 balls, but you are welcome to make it easier by using fewer balls or only trying half the table at a time.) The object is to sink all the balls in corner pockets without using combinations (kicking and banking are fine, if you can pull it off). Should you hit ball first, or rail first? Try aiming about a credit card’s width in front of the ball, and see if that works for you. Start with ball in hand, but play it straight from there and work on your position off the rails."
+            android:text="This drill is to help improve your rail pocketing ability. Start with ball-in-hand anywhere on the table. Try to make all the balls. Don't have to shoot them in any order. Try not to touch any ball. It is possible to touch a ball and still finish the drill successfully. If you can finish the drill then click on the radio button. If not then don't. Click save button to save your progress."
             android:id="@+id/progressiveDrill1Text"
             android:layout_gravity="center_horizontal"
             android:textColor="#ffffffff" />
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_marginTop="20dp"
+            android:layout_weight=".5">
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:text="Successful or not"
+                android:textColor="#f00"
+                android:id="@+id/railShotSuccessful" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_weight=".5"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight=".5"
+                android:text="Save"
+                android:id="@+id/saveAimToWin" />
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight=".5"
+                android:text="Graph"
+                android:id="@+id/graphAimToWin" />
+
+
+        </LinearLayout>
     </LinearLayout>
 
 </RelativeLayout>

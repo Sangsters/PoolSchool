@@ -187,7 +187,7 @@
                 android:textStyle = "bold"
                 android:textSize="20dp"
                 android:text="Tot."
-                android:id="@+id/totleTitle" />
+                android:id="@+id/totalTitle" />
         </LinearLayout>
 
 
