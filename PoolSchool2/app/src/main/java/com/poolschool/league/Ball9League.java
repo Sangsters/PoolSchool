@@ -1,20 +1,8 @@
 package com.poolschool.league;
 
 import android.app.Activity;
-import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
-import android.view.Menu;
-import android.view.MenuItem;
-import android.view.View;
-import android.view.ViewGroup;
-import android.widget.Adapter;
-import android.widget.AdapterView;
-import android.widget.ArrayAdapter;
-import android.widget.ImageView;
-import android.widget.ListView;
-import android.widget.TextView;
 
-import com.poolschool.fundamental.FundamentI;
 import com.poolschool.poolschool.R;
 
 import java.util.ArrayList;
@@ -26,20 +14,20 @@ public class Ball9League extends Activity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.ball9_league);
+        setContentView(R.layout.bca9league);
 
-        for(int i=0;i<5;i++){
+        /*for(int i=0;i<5;i++){
             myLeague.add(new Ball9LeagueScoreClass());
             myAwayLeague.add(new Ball9LeagueScoreClass());
         }
+*/
 
-
-        populateListView();
-        registerClickCallback();
+       // populateListView();
+       // registerClickCallback();
     }
 
 
-    private void populateListView() {
+   /* private void populateListView() {
         ArrayAdapter<Ball9LeagueScoreClass> adapter = new MyListAdapter();
         ArrayAdapter<Ball9LeagueScoreClass> adapterAway = new MyListAdapter2();
         ListView list = (ListView) findViewById(R.id.ball9HomeTeamListView);
@@ -140,7 +128,7 @@ public class Ball9League extends Activity {
        }
 
 
-
+*/
 
 
 }

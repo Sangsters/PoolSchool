@@ -1,13 +1,13 @@
 package com.poolschool.shotMakingDrills;
 
-import android.support.v7.app.ActionBarActivity;
+import android.app.Activity;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
 
 import com.poolschool.poolschool.R;
 
-public class Pocket9Drill extends ActionBarActivity {
+public class Pocket9Drill extends Activity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

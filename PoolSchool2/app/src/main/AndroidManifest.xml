@@ -4,13 +4,12 @@
 
     <application
         android:allowBackup="true"
-        android:icon="@drawable/icons"
+        android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
         android:theme="@android:style/Theme.Black.NoTitleBar" >
         <activity
             android:name=".MainActivity"
-            android:label="@string/app_name"
-             >
+            android:label="@string/app_name" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -19,8 +18,7 @@
         </activity>
         <activity
             android:name="com.poolschool.drill.CueBallControl"
-            android:label="Cue Ball Control Drills"
-             >
+            android:label="Cue Ball Control Drills" >
             <intent-filter>
                 <action android:name="CueBallControl" />
 
@@ -29,13 +27,11 @@
         </activity>
         <activity
             android:name=".Drills"
-            android:label="Drills"
-             >
+            android:label="Drills" >
         </activity>
         <activity
             android:name="com.poolschool.drill.Fundamental"
-            android:label="Fundamental"
-             >
+            android:label="Fundamental" >
         </activity>
         <activity
             android:name="com.poolschool.CueBallControlDrills.ProgressiveDrill1"
@@ -114,6 +110,14 @@
         <activity
             android:name="com.poolschool.league.League"
             android:label="@string/title_activity_league" >
+        </activity>
+        <activity
+            android:name="com.poolschool.shotMakingDrills.GraphAimToWin"
+            android:label="@string/title_activity_graph_aim_towin" >
+        </activity>
+        <activity
+            android:name="com.poolschool.league.ViewPreviousSession"
+            android:label="@string/title_activity_view_previous_session" >
         </activity>
     </application>
 

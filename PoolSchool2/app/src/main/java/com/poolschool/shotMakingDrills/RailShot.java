@@ -1,13 +1,14 @@
 package com.poolschool.shotMakingDrills;
 
-import android.support.v7.app.ActionBarActivity;
+
+import android.app.Activity;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
 
 import com.poolschool.poolschool.R;
 
-public class RailShot extends ActionBarActivity {
+public class RailShot extends Activity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

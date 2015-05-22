@@ -1,5 +1,6 @@
 package com.poolschool.drill;
 
+import android.app.Activity;
 import android.content.Intent;
 import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
@@ -13,7 +14,7 @@ import com.poolschool.KickDrill.ProgressiveKicking1;
 import com.poolschool.KickDrill.ProgressiveKicking2;
 import com.poolschool.poolschool.R;
 
-public class KickDrills extends ActionBarActivity {
+public class KickDrills extends Activity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

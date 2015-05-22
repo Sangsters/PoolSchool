@@ -28,7 +28,7 @@
             android:text="Who doesn’t love seeing the 9 ball find its way to a pocket?
 
 With the 9 ball in the spot shown, work your way through the cue-ball locations from C-1 to C-6, shooting the 9 in the easiest pocket. Working on cut angles from different angles will help hone your shot-making, execution and confidence. [Nick Varner]"
-            android:id="@+id/progressiveDrill1Text"
+            android:id="@+id/pocket9DrillText"
             android:layout_gravity="center_horizontal"
             android:textColor="#ffffffff" />
         <LinearLayout

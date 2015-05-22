@@ -7,8 +7,8 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
-import com.poolschool.fundamental.FundamentalList;
 import com.poolschool.league.League;
+import com.poolschool.fundamental.FundamentalList;
 
 public class MainActivity extends Activity implements View.OnClickListener{
     private Button drill, fundamental,league;

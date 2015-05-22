@@ -1,5 +1,6 @@
 package com.poolschool.CueBallControlDrills;
 
+import android.app.Activity;
 import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
 import android.view.Menu;
@@ -7,7 +8,7 @@ import android.view.MenuItem;
 
 import com.poolschool.poolschool.R;
 
-public class ProgressivePositionDrill3 extends ActionBarActivity {
+public class ProgressivePositionDrill3 extends Activity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

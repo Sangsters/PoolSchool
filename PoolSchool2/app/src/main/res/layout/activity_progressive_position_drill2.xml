@@ -163,13 +163,13 @@
                 android:layout_height="wrap_content"
                 android:layout_weight=".5"
                 android:text="Save"
-                android:id="@+id/saveAimToWin" />
+                android:id="@+id/saveProgressivePositionDrill2" />
             <Button
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight=".5"
                 android:text="Graph"
-                android:id="@+id/graphAimToWin" />
+                android:id="@+id/graphProgressivePositionDrill2" />
 
 
         </LinearLayout>

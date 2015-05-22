@@ -45,7 +45,7 @@ Taking ball in hand on every shot, the goal is to leave the object ball near A a
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
 
-                android:text="Successful or not"
+                android:text="Successful"
                 android:textColor="#f00"
                 android:id="@+id/halfTableSafetyRadio" />
 

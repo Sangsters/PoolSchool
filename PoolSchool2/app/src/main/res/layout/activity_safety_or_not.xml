@@ -29,7 +29,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="This drill is to help with safety play. Randomly through out four or five balls and the cue ball. Try to hit the lowest ball and hide the cue ball. If you are successful then click the button, otherwise leave don't check."
-            android:id="@+id/progressiveDrill1Text"
+            android:id="@+id/safetyOrNotText"
             android:layout_gravity="center_horizontal"
             android:textColor="#ffffffff"
             android:background="#ff000000" />
@@ -41,7 +41,7 @@
                 android:layout_marginBottom="90dp"
                 android:text="Successful"
                 android:textColor="#f00"
-                android:id="@+id/radio1" />
+                android:id="@+id/safetyOrNotRadio1" />
 
 
 
@@ -58,13 +58,13 @@
                 android:layout_height="wrap_content"
                 android:layout_weight=".5"
                 android:text="Save"
-                android:id="@+id/saveAimToWin" />
+                android:id="@+id/saveSafetyOrNot" />
             <Button
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight=".5"
                 android:text="Graph"
-                android:id="@+id/graphAimToWin" />
+                android:id="@+id/graphSafetyOrNot" />
 
 
         </LinearLayout>

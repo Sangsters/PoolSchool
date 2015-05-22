@@ -28,7 +28,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="This drill is to help improve your rail pocketing ability. Start with ball-in-hand anywhere on the table. Try to make all the balls. Don't have to shoot them in any order. Try not to touch any ball. It is possible to touch a ball and still finish the drill successfully. If you can finish the drill then click on the radio button. If not then don't. Click save button to save your progress."
-            android:id="@+id/progressiveDrill1Text"
+            android:id="@+id/railShotText"
             android:layout_gravity="center_horizontal"
             android:textColor="#ffffffff" />
         <LinearLayout
@@ -41,7 +41,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
 
-                android:text="Successful or not"
+                android:text="Successful"
                 android:textColor="#f00"
                 android:id="@+id/railShotSuccessful" />
 
@@ -59,13 +59,13 @@
                 android:layout_height="wrap_content"
                 android:layout_weight=".5"
                 android:text="Save"
-                android:id="@+id/saveAimToWin" />
+                android:id="@+id/saveRailShot" />
             <Button
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight=".5"
                 android:text="Graph"
-                android:id="@+id/graphAimToWin" />
+                android:id="@+id/graphRailShot" />
 
 
         </LinearLayout>

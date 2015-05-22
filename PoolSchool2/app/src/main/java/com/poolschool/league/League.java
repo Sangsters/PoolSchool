@@ -1,35 +1,26 @@
 package com.poolschool.league;
 
-import android.content.DialogInterface;
+
+import android.app.Activity;
 import android.content.Intent;
-import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
-import android.view.Menu;
-import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
-
-import com.poolschool.drill.CueBallControl;
-import com.poolschool.drill.KickDrills;
-import com.poolschool.drill.SafetyDrills;
-import com.poolschool.drill.ShotMakingDrillList;
-import com.poolschool.fundamental.FundamentalList;
-import com.poolschool.poolschool.Drills;
 import com.poolschool.poolschool.R;
 
-public class League extends ActionBarActivity implements View.OnClickListener {
-    private Button BCA8Ball, BCA9Ball;
+
+public class League extends Activity {
+    private Button BCA8Ball, BCA9Ball, viewPrevious;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_league);
 
-        BCA8Ball = (Button) findViewById(R.id.BCA8ballLeagueButton);
-        BCA9Ball = (Button) findViewById(R.id.BCA9BallLeagueButton);
 
-        //addListenerOnButton();
+
+        addListenerOnButton();
     }
-   /*public void addListenerOnButton(){
+   public void addListenerOnButton(){
 
         BCA8Ball = (Button) findViewById(R.id.BCA8ballLeagueButton);
         BCA8Ball.setOnClickListener(new View.OnClickListener() {
@@ -51,15 +42,19 @@ public class League extends ActionBarActivity implements View.OnClickListener {
             }
         });
 
-    }*/
+       viewPrevious =(Button)findViewById(R.id.viewPreviousSessionButton);
+       viewPrevious.setOnClickListener(new View.OnClickListener(){
+           @Override
+           public void onClick(View v){
+               Intent intent;
+               intent = new Intent(getApplicationContext(), ViewPreviousSession.class);
+               startActivity(intent);
 
-
-    @Override
-    public void onClick(View v) {
-        if(v==BCA8Ball)
-            startActivity(new Intent(this, BCA8League.class));
-        else if(v==BCA9Ball)
-            startActivity(new Intent(this, Ball9League.class));
+           }
+       });
 
     }
+
+
+
 }

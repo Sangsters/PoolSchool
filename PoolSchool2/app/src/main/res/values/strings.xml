@@ -23,4 +23,6 @@
     <string name="title_activity_ball9_league">Ball9League</string>
     <string name="title_activity_bca8_league">BCA8League</string>
     <string name="title_activity_league">League</string>
+    <string name="title_activity_graph_aim_towin">GraphAimTowin</string>
+    <string name="title_activity_view_previous_session">ViewPreviousSession</string>
 </resources>
