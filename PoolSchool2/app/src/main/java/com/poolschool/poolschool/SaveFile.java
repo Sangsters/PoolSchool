@@ -37,7 +37,7 @@ public class SaveFile extends Activity{
                 file.createNewFile();
             } catch (IOException e) {
                 e.printStackTrace();
-                System.out.println("Can't create file.");
+                System.out.println("Can't create file.SAveFile");
             }
         }
         //create outputstream
@@ -45,7 +45,7 @@ public class SaveFile extends Activity{
             out = new OutputStreamWriter(openFileOutput(fileName,0));
         } catch (FileNotFoundException e) {
             e.printStackTrace();
-            System.out.println("Can't create output stream.");
+            System.out.println("Can't create output stream. SAveFile");
         }
 
     }

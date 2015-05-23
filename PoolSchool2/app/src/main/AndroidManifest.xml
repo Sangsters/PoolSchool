@@ -119,6 +119,10 @@
             android:name="com.poolschool.league.ViewPreviousSession"
             android:label="@string/title_activity_view_previous_session" >
         </activity>
+        <activity
+            android:name="com.poolschool.league.LeagueSearchResult"
+            android:label="@string/title_activity_league_search_result" >
+        </activity>
     </application>
 
 </manifest>

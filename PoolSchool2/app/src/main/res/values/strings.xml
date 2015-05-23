@@ -25,4 +25,5 @@
     <string name="title_activity_league">League</string>
     <string name="title_activity_graph_aim_towin">GraphAimTowin</string>
     <string name="title_activity_view_previous_session">ViewPreviousSession</string>
+    <string name="title_activity_league_search_result">LeagueSearchResult</string>
 </resources>

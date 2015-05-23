@@ -155,8 +155,10 @@ public class GraphAimToWin extends Activity {
             fis.close();
         } catch (FileNotFoundException e) {
             e.printStackTrace();
+            System.out.println("Graph AimToWin");
         } catch (IOException e) {
             e.printStackTrace();
+            System.out.println("Graph AimToWin");
         }
 
         for(int i=0;i<made.size();i++){

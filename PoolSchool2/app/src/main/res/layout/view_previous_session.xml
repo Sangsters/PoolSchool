@@ -13,11 +13,12 @@
     <TextView
         android:text="Select a home team."
         android:layout_width="match_parent"
+        android:textSize="30dp"
         android:layout_height="wrap_content" />
 
     <ListView
         android:layout_width="match_parent"
-        android:layout_height="250dp"
+        android:layout_height="200dp"
 
         android:id="@+id/previousHomeSessionListView"
         />
@@ -27,16 +28,23 @@
         android:text="Select a away team."
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:textSize="30dp"
 
         />
 
     <ListView
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="200dp"
         android:layout_gravity="right"
         android:id="@+id/previousAwaySessionListView"
        />
 
-   </LinearLayout>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Search"
+            android:id="@+id/previoussessionsearch" />
+
+    </LinearLayout>
 
 </RelativeLayout>

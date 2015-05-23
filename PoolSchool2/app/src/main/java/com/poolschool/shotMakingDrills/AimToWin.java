@@ -101,12 +101,12 @@ public class AimToWin extends Activity {
             Toast.makeText(getBaseContext(), "Drill Saved", Toast.LENGTH_LONG).show();
         } catch (FileNotFoundException e) {
             e.printStackTrace();
-            System.out.println("Cant create file");
+            System.out.println("Cant create file Aim To Win");
         } catch (ParseException e) {
             e.printStackTrace();
         } catch (IOException e) {
             e.printStackTrace();
-            System.out.println("Can't write to file");
+            System.out.println("Can't write to file Aim To Win");
         }
 
         clearRadioButton();
@@ -191,8 +191,10 @@ public class AimToWin extends Activity {
             fos.close();
         } catch (FileNotFoundException e) {
             e.printStackTrace();
+            System.out.println("Aim To Win");
         } catch (IOException e) {
             e.printStackTrace();
+            System.out.println("Aim to Win");
         }
 
       for(int i=0;i<made.size();i++){

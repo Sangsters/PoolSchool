@@ -9,6 +9,7 @@ import android.view.MenuItem;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
+import android.widget.Button;
 import android.widget.EditText;
 import android.widget.ListView;
 import android.widget.TextView;
@@ -30,14 +31,14 @@ public class ViewPreviousSession extends Activity {
     private String allAwayTeamFile;
     private ArrayList<String> homeTeamNameFromFile = new ArrayList<>();
     private ArrayList<String> awayTeamNameFromFile = new ArrayList<>();
-    private String homeName;
-    private String awayName;
+    private String[] teamName ;
     private FileInputStream fis;
     private ArrayList<String> homeTeamName = new ArrayList<>();
     private ArrayList<String> awayTeamName = new ArrayList<>();
     private ArrayList<Integer> homeTeamTotal = new ArrayList<>();
     private ArrayList<Integer> awayTeamTotal = new ArrayList<>();
     private ArrayList<BCA8LeaguePlayer> playerStat = new ArrayList<>();
+    private Button search;
 
 
     @Override
@@ -45,11 +46,11 @@ public class ViewPreviousSession extends Activity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.view_previous_session);
 
-
+        teamName = new String[2];
 
 
         allHomeTeamFile = "BCA8HomeTeamFile1.txt";
-        allAwayTeamFile = "BCA88AwayTeamFile1.txt";
+        allAwayTeamFile = "BCA8AwayTeamFile1.txt";
 
         readTeamFile(allHomeTeamFile, homeTeamNameFromFile);
         readTeamFile(allAwayTeamFile, awayTeamNameFromFile);
@@ -57,6 +58,26 @@ public class ViewPreviousSession extends Activity {
         populateHomeListView();
         populateAwayListView();
         registerClickCallback();
+        addListenerOnButton();
+    }
+
+    public void addListenerOnButton(){
+
+
+        search =(Button)findViewById(R.id.previoussessionsearch);
+        search.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                //Bundle extra = new Bundle();
+               // extra.putStringArray("key",teamName);
+                Intent intent;
+                intent = new Intent(getApplicationContext(), LeagueSearchResult.class);
+                //intent.putExtras(extra);
+                startActivity(intent);
+
+            }
+        });
+
     }
 
     //get what the user chose for the away and home team.
@@ -65,7 +86,7 @@ public class ViewPreviousSession extends Activity {
         homeList.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
-                homeName = homeTeamNameFromFile.get(position);
+                teamName[0] = homeTeamNameFromFile.get(position);
 
             }
         });
@@ -74,7 +95,7 @@ public class ViewPreviousSession extends Activity {
         awayList.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
-                awayName = homeTeamNameFromFile.get(position);
+                teamName[1] = homeTeamNameFromFile.get(position);
 
             }
         });
@@ -127,10 +148,10 @@ public class ViewPreviousSession extends Activity {
             fis.close();
         } catch (FileNotFoundException e) {
             e.printStackTrace();
-            System.out.println("Cant open file to read!!!!");
+            System.out.println("Cant open file to read ViewPreviousSession!!!!");
         } catch (IOException e) {
             e.printStackTrace();
-            System.out.println("Can't read from file");
+            System.out.println("Can't read from file ViewPreviousSession");
         }
 
 

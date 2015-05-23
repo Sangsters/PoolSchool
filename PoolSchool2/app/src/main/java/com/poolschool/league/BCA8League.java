@@ -105,7 +105,7 @@ public class BCA8League extends Activity {
 
     private void writeAllTeamFile(){
         allHomeTeamFile = "BCA8HomeTeamFile1.txt";
-        allAwayTeamFile = "BCA88AwayTeamFile1.txt";
+        allAwayTeamFile = "BCA8AwayTeamFile1.txt";
         readAllTeamFile(allHomeTeamFile, homeTeamNameFromFile);
 
         if(!homeTeamNameFromFile.contains(homeTeamName.getText().toString())) {
@@ -118,10 +118,10 @@ public class BCA8League extends Activity {
                 fos.close();
             } catch (FileNotFoundException e) {
                 e.printStackTrace();
-                System.out.println("File not found.");
+                System.out.println("File not found. BCA8League");
             } catch (IOException e) {
                 e.printStackTrace();
-                System.out.println("Can't write to file ");
+                System.out.println("Can't write to file BCA8League");
             }
         }
 
@@ -137,10 +137,10 @@ public class BCA8League extends Activity {
                 fos.close();
             } catch (FileNotFoundException e) {
                 e.printStackTrace();
-                System.out.println("File not found.");
+                System.out.println("File not found.BCA8League");
             } catch (IOException e) {
                 e.printStackTrace();
-                System.out.println("Can't write to file ");
+                System.out.println("Can't write to file BCA8League");
             }
 
         }
@@ -165,8 +165,10 @@ public class BCA8League extends Activity {
 
         } catch (FileNotFoundException e) {
             e.printStackTrace();
+            System.out.println("Cant open file for reading BCA8Leageu");
         } catch (IOException e) {
             e.printStackTrace();
+            System.out.println("Cant reading from file BCA8Leageu");
         }
 
     }
@@ -206,10 +208,10 @@ public class BCA8League extends Activity {
             Toast.makeText(getBaseContext(), "Drill Saved", Toast.LENGTH_LONG).show();
         } catch (FileNotFoundException e) {
             e.printStackTrace();
-            System.out.println("Cant create file");
+            System.out.println("Cant create file BCA8League");
         } catch (IOException e) {
             e.printStackTrace();
-            System.out.println("Can't write to file");
+            System.out.println("Can't write to file BCA8League ");
         }
 
 
